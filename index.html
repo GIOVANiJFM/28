@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Java e CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="home-link">Início</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><button id="color-btn">Mudar Cor de Fundo</button></li>
+            </ul>
+        </nav>
+        <h1>Quiz sobre Java e CSS</h1>
+    </header>
+
+    <section id="quiz">
+        <h2>Responda o Quiz!</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <label for="q1">1. O que é o Java?</label><br>
+                <input type="radio" id="q1a1" name="q1" value="resposta1"> Uma linguagem de programação orientada a objetos<br>
+                <input type="radio" id="q1a2" name="q1" value="resposta2"> Uma ferramenta de design<br>
+                <input type="radio" id="q1a3" name="q1" value="resposta3"> Um tipo de banco de dados<br>
+            </div>
+            <div class="question">
+                <label for="q2">2. O que é o CSS?</label><br>
+                <input type="radio" id="q2a1" name="q2" value="resposta1"> Cascading Style Sheets<br>
+                <input type="radio" id="q2a2" name="q2" value="resposta2"> Comando de Sistema Simples<br>
+                <input type="radio" id="q2a3" name="q2" value="resposta3"> Uma linguagem de backend<br>
+            </div>
+            <button type="submit">Enviar Respostas</button>
+        </form>
+        
+        <div id="resultado"></div>
+    </section>
+
+    <footer>
+        <p>Feito por Giovani!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
